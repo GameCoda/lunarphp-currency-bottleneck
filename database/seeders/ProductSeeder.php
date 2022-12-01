@@ -93,6 +93,17 @@ class ProductSeeder extends AbstractSeeder
                     'price' => $product->price,
                     'tier' => 1,
                 ]);
+                $otherCurrencies = Currency::where('code', '!=', $currency->code)->get();
+                foreach ($otherCurrencies as $otherCurrency) {
+                    Price::create([
+                        'customer_group_id' => null,
+                        'currency_id' => $currency->id,
+                        'priceable_type' => ProductVariant::class,
+                        'priceable_id' => $variant->id,
+                        'price' => $product->price,
+                        'tier' => 1,
+                    ]);
+                }
 
                 $media = $productModel->addMedia(
                     base_path("database/seeders/data/images/{$product->image}")

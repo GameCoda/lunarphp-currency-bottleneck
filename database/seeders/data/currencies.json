@@ -1,0 +1,67 @@
+[
+    {
+        "code": "EUR",
+        "name": "€",
+        "decimal_places": 2
+    },
+    {
+        "code": "GBP",
+        "name": "£",
+        "decimal_places": 2
+    },
+    {
+        "code": "DKK",
+        "name": "DKK",
+        "decimal_places": 2
+    },
+    {
+        "code": "CHF",
+        "name": "CHF",
+        "decimal_places": 2
+    },
+    {
+        "code": "BRL",
+        "name": "R$",
+        "decimal_places": 2
+    },
+    {
+        "code": "CAD",
+        "name": "C$",
+        "decimal_places": 2
+    },
+    {
+        "code": "CZK",
+        "name": "CZK",
+        "decimal_places": 2
+    },
+    {
+        "code": "AUD",
+        "name": "A$",
+        "decimal_places": 2
+    },
+    {
+        "code": "SEK",
+        "name": "SEK",
+        "decimal_places": 2
+    },
+    {
+        "code": "PLN",
+        "name": "PLN",
+        "decimal_places": 2
+    },
+    {
+        "code": "NOK",
+        "name": "NOK",
+        "decimal_places": 2
+    },
+    {
+        "code": "AED",
+        "name": "د.إ",
+        "decimal_places": 2
+    },
+    {
+        "code": "THB",
+        "name": "฿",
+        "decimal_places": 2
+    }
+]
